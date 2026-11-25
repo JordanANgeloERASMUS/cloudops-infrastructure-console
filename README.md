@@ -18,6 +18,15 @@ arbitrary shell commands. Use it only on computers you own or are authorized
 to administer. Do not expose the dashboard or agent ports to the public
 internet.
 
+## Screenshots
+
+Captured from a local run. Live metrics shown are from the demo machine at the
+time of capture.
+
+![CloudOps dashboard overview](docs/screenshots/dashboard-overview.png)
+
+![CloudOps live performance charts](docs/screenshots/live-performance-charts.png)
+
 ## Requirements
 
 - Python 3.10 or later
