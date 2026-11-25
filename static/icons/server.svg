@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Server infrastructure</title>
+  <desc id="desc">A custom rack server with a front status rail.</desc>
+  <defs>
+    <linearGradient id="server-accent" x1="14" y1="16" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 13H48V51H16Z" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M16 25H48M16 38H48" stroke="#8FA9C4" stroke-width="3"/>
+    <path d="M23 19H38M23 31H38M23 44H38" stroke="url(#server-accent)" stroke-width="3"/>
+    <circle cx="42" cy="19" r="2.3" fill="#4DF4FF"/>
+    <circle cx="42" cy="31" r="2.3" fill="#1877FF"/>
+    <circle cx="42" cy="44" r="2.3" fill="#4DF4FF"/>
+    <path d="M22 51V55M42 51V55" stroke="#8FA9C4" stroke-width="3"/>
+  </g>
+</svg>

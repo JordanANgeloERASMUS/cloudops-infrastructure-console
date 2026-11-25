@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Storage disk</title>
+  <desc id="desc">A custom stacked storage array with status lights.</desc>
+  <defs>
+    <linearGradient id="storage-accent" x1="16" y1="21" x2="48" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 18L20 14H44L49 18V27L44 31H20L15 27Z" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M15 29L20 33H44L49 29V39L44 43H20L15 39Z" stroke="#8FA9C4" stroke-width="3"/>
+    <path d="M20 23H37M20 38H37" stroke="url(#storage-accent)" stroke-width="3"/>
+    <circle cx="42" cy="23" r="2" fill="#4DF4FF"/>
+    <circle cx="42" cy="38" r="2" fill="#1877FF"/>
+    <path d="M24 48V52H40V48" stroke="#8FA9C4" stroke-width="3"/>
+  </g>
+</svg>

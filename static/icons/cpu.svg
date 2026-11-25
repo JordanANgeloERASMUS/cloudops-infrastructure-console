@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">CPU processor</title>
+  <desc id="desc">A custom processor core with active circuit pins.</desc>
+  <defs>
+    <linearGradient id="cpu-accent" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="17" y="17" width="30" height="30" rx="5" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M26 17V11M32 17V8M38 17V11M26 47V53M32 47V56M38 47V53M17 26H11M17 32H8M17 38H11M47 26H53M47 32H56M47 38H53" stroke="#8FA9C4" stroke-width="3"/>
+    <path d="M25 28L30 23H39V34L34 39H25Z" stroke="url(#cpu-accent)" stroke-width="3"/>
+    <path d="M30 28H35M30 34H35" stroke="#4DF4FF" stroke-width="2.5"/>
+  </g>
+</svg>

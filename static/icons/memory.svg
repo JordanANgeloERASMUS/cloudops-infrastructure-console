@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Memory RAM</title>
+  <desc id="desc">A custom memory module with illuminated data lanes.</desc>
+  <defs>
+    <linearGradient id="memory-accent" x1="16" y1="22" x2="50" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 24L18 18H48L52 22V42L46 48H16L12 44Z" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M21 27V39M30 27V39M39 27V39" stroke="url(#memory-accent)" stroke-width="4"/>
+    <path d="M16 48V53M23 48V53M30 48V56M37 48V53M44 48V53" stroke="#8FA9C4" stroke-width="3"/>
+    <path d="M17 42H47" stroke="#4DF4FF" stroke-width="2.5"/>
+  </g>
+</svg>

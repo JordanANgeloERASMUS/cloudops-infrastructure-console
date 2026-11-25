@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">System uptime</title>
+  <desc id="desc">A custom availability clock with an upward status arc.</desc>
+  <defs>
+    <linearGradient id="uptime-accent" x1="18" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 30C49 20 41 12 31 12C21 12 13 20 13 30C13 40 21 48 31 48C37 48 43 45 46 40" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M44 16H50V22" stroke="#4DF4FF" stroke-width="3"/>
+    <path d="M50 16L42 24" stroke="url(#uptime-accent)" stroke-width="3"/>
+    <path d="M31 21V31L38 35" stroke="url(#uptime-accent)" stroke-width="3"/>
+    <path d="M20 53H42" stroke="#8FA9C4" stroke-width="3"/>
+  </g>
+</svg>

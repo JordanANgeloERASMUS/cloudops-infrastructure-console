@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Security shield</title>
+  <desc id="desc">A custom shield with a secured core and perimeter facets.</desc>
+  <defs>
+    <linearGradient id="security-accent" x1="18" y1="17" x2="46" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DF4FF"/>
+      <stop offset="1" stop-color="#1877FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 10L49 17V30C49 41 42 50 32 55C22 50 15 41 15 30V17Z" stroke="#DDEBFA" stroke-width="3"/>
+    <path d="M32 18L42 22V30C42 37 38 43 32 46C26 43 22 37 22 30V22Z" stroke="url(#security-accent)" stroke-width="3"/>
+    <path d="M27 31L30.5 34.5L37.5 27.5" stroke="#4DF4FF" stroke-width="3"/>
+    <path d="M15 17L22 20M49 17L42 20" stroke="#8FA9C4" stroke-width="3"/>
+  </g>
+</svg>
